@@ -3,12 +3,12 @@ JavaScript front-end for a SharePoint solution that allows students and trainers
 
 Add a student's training completion
 
-<p><img href=""></p>
+<p><img href="https://github.com/BeckyLash/SPTrngTracker/blob/master/img/registerstudent.PNG"></p>
 
 Add an organization
 
-<p><img href=""></p>
+<p><img href="https://github.com/BeckyLash/SPTrngTracker/blob/master/img/registerstudent.PNG"></p>
 
 Training certificate
 
-<p><img href=""></p>
+<p><img href="https://github.com/BeckyLash/SPTrngTracker/blob/master/img/registerstudent.PNG"></p>
