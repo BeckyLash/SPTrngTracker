@@ -16,5 +16,5 @@ Add an organization
 Training certificate
 
 <kbd>
-<img src="https://github.com/BeckyLash/SPTrngTracker/blob/master/img/trainingcertificate.PNG">
+<img src="https://github.com/BeckyLash/SPTrngTracker/blob/master/img/trainingcertificate.png">
 </kbd>
