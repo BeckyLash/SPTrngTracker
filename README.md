@@ -4,7 +4,9 @@ JavaScript front-end for a SharePoint solution that allows students and trainers
 Add a student's training completion
 ![alt text](https://raw.githubusercontent.com/BeckyLash/SPTrngTracker/img/registerstudent.PNG)
 
-
+<kbd>
+<img src="https://github.com/BeckyLash/SPTrngTracker/blob/master/img/registerstudent.PNG">
+</kbd>
 
 Add an organization
 
