@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="WebPartGallery\" Type="ElementManifest" />
+    <ProjectItemFile Source="TrainingEventNewItem.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingHistoryEditItemAttendee.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingHistoryNewItemAttendee.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="OrganizationNewItem.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="OrganizationEditItem.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingEventEditItem.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingHistoryEditItemManager.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingHistoryNewItemManager.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="Certificate.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="LP_EmpUG.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="LP_MgrGuide.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="LP_AdminGuide.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="LP_Reports.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="LP_TM_RecordTH.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="LP_TM_MgrGuide.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="LP_Admin_NewOrg.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="CertificateLinks.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingEventNewItemLinks.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingEventEditItemLinks.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="OrganizationEditItemLinks.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="OrganizationNewItemLinks.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingHistoryEditItemAttendeeLinks.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingHistoryEditItemManagerLinks.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingHistoryNewItemAttendeeLinks.dwp" Target="WebPartGallery\" Type="ElementFile" />
+    <ProjectItemFile Source="TrainingHistoryNewItemManagerLinks.dwp" Target="WebPartGallery\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

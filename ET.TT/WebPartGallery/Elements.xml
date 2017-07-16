@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WebPartGallery" Url="_catalogs/wp">
+    
+    <File Path="WebPartGallery\TrainingEventNewItem.dwp" Url="TrainingEventNewItem.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\TRainingHistoryEditItemAttendee.dwp" Url="TRainingHistoryEditItemAttendee.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\TrainingHistoryNewItemAttendee.dwp" Url="TrainingHistoryNewItemAttendee.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE"   ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\OrganizationNewItem.dwp" Url="OrganizationNewItem.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\OrganizationEditItem.dwp" Url="OrganizationEditItem.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\TrainingEventEditItem.dwp" Url="TrainingEventEditItem.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\TrainingHistoryEditItemManager.dwp" Url="TrainingHistoryEditItemManager.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"  />
+    <File Path="WebPartGallery\TrainingHistoryNewItemManager.dwp" Url="TrainingHistoryNewItemManager.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\Certificate.dwp" Url="Certificate.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\CertificateLinks.dwp" Url="CertificateLinks.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\LP_EmpUG.dwp" Url="LP_EmpUG.dwp" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\LP_MgrGuide.dwp" Url="LP_MgrGuide.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\LP_AdminGuide.dwp" Url="LP_AdminGuide.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\LP_Reports.dwp" Url="LP_Reports.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\LP_TM_RecordTH.dwp" Url="LP_TM_RecordTH.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\LP_TM_MgrGuide.dwp" Url="LP_TM_MgrGuide.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\LP_Admin_NewOrg.dwp" Url="LP_Admin_NewOrg.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\TrainingEventNewItemLinks.dwp" Url="TrainingEventNewItemLinks.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\TrainingEventEditItemLinks.dwp" Url="TrainingEventEditItemLinks.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="WebPartGallery\OrganizationEditItemLinks.dwp" Url="OrganizationEditItemLinks.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\OrganizationNewItemLinks.dwp" Url="OrganizationNewItemLinks.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\TrainingHistoryEditItemAttendeeLinks.dwp" Url="TrainingHistoryEditItemAttendeeLinks.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\TrainingHistoryEditItemManagerLinks.dwp" Url="TrainingHistoryEditItemManagerLinks.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\TrainingHistoryNewItemAttendeeLinks.dwp" Url="TrainingHistoryNewItemAttendeeLinks.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="WebPartGallery\TrainingHistoryNewItemManagerLinks.dwp" Url="TrainingHistoryNewItemManagerLinks.dwp" Type="GhostableInLibrary"  IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
