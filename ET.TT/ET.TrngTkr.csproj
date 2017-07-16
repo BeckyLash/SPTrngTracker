@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7ACAC3C8-7DDF-40F7-A89A-D95C0E0EB2F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AMC.MTT</RootNamespace>
+    <AssemblyName>AMC.MTT</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>True</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\ETTngTkerSiteCollection\ETTngTkerSiteCollection.feature">
+      <FeatureId>{45784f4d-d949-42ba-be98-e1bbcd3cde6d}</FeatureId>
+    </None>
+    <None Include="Features\ETTngTkrWeb\ETTngTkrWeb.feature">
+      <FeatureId>{f6ef5021-f6a4-45e9-b0fb-ee702522d49e}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="ET.TrngTkr\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d45d0fe5-cdb3-4448-b6ef-dd6bbdc49bd5}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{ed546adf-597d-44fd-9c71-32488f491c8d}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="ReferenceNotes\DeploymentGuide.docx" />
+    <None Include="ReferenceNotes\DeveloperNotes.docx" />
+    <None Include="SitePages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e209859c-091c-4d24-a937-d14449203db0}</SharePointProjectItemId>
+    </None>
+    <None Include="WebPartGallery\CertificateLinks.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\LP_AdminGuide.dwp" />
+    <None Include="WebPartGallery\LP_EmpUG.dwp" />
+    <None Include="WebPartGallery\LP_MgrGuide.dwp" />
+    <None Include="WebPartGallery\LP_Reports.dwp" />
+    <None Include="WebPartGallery\LP_TM_MgrGuide.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\LP_Admin_NewOrg.dwp" />
+    <None Include="WebPartGallery\LP_TM_RecordTH.dwp" />
+    <None Include="WebPartGallery\OrganizationEditItemLinks.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\OrganizationNewItemLinks.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingEventEditItemLinks.dwp" />
+    <None Include="WebPartGallery\TrainingEventEditItem.dwp" />
+    <None Include="WebPartGallery\TrainingEventNewItemLinks.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingEventNewItem.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingHistoryEditItemAttendeeLinks.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingHistoryEditItemAttendee.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingHistoryEditItemManagerLinks.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingHistoryEditItemManager.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\Certificate.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingHistoryNewItemAttendeeLinks.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingHistoryNewItemAttendee.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\OrganizationEditItem.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\OrganizationNewItem.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingHistoryNewItemManagerLinks.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\TrainingHistoryNewItemManager.dwp">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebPartGallery\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f7d0b53d-df0f-41ec-93fb-535aeabb9195}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ET.TrngTkr\css\Organization.css" />
+    <Content Include="ET.TrngTkr\html\EditOrganizationFormLinks.html" />
+    <Content Include="ET.TrngTkr\html\EditOrganizationForm.html" />
+    <Content Include="ET.TrngTkr\html\EditTrainingEventFormLinks.html" />
+    <Content Include="ET.TrngTkr\html\EditTrainingEventForm.html" />
+    <Content Include="ET.TrngTkr\html\EditTrainingHistoryFormLinks.html" />
+    <Content Include="ET.TrngTkr\html\NewOrganizationFormLinks.html" />
+    <Content Include="ET.TrngTkr\html\NewTrainingEventFormLinks.html" />
+    <Content Include="ET.TrngTkr\html\NewTrainingHistoryFormLinks.html" />
+    <Content Include="ET.TrngTkr\html\TrainingHistoryEditFormManagerLinks.html" />
+    <Content Include="ET.TrngTkr\html\TrainingHistoryNewFormManagerLinks.html" />
+    <Content Include="ET.TrngTkr\html\ViewCertificatelinks.html" />
+    <Content Include="ET.TrngTkr\html\ViewCertificate.html" />
+    <Content Include="ET.TrngTkr\html\TrainingHistoryEditFormManager.html" />
+    <Content Include="ET.TrngTkr\html\TrainingHistoryNewFormManager.html" />
+    <Content Include="ET.TrngTkr\images\army.png" />
+    <Content Include="ET.TrngTkr\js\LandingPage.js" />
+    <Content Include="ET.TrngTkr\js\CreatedByUser.js" />
+    <Content Include="ET.TrngTkr\js\EditTrainingEvent.js" />
+    <Content Include="ET.TrngTkr\js\ViewCertificate.js" />
+    <Content Include="ET.TrngTkr\js\EditTrnHistAttendee.js" />
+    <Content Include="ET.TrngTkr\js\EditTrnHistManager.js" />
+    <Content Include="ET.TrngTkr\js\NewTrainingEvent.js" />
+    <Content Include="ET.TrngTkr\js\NewTrnHistManager.js" />
+    <Content Include="ET.TrngTkr\js\CopytoClipboard.js" />
+    <Content Include="ET.TrngTkr\css\LandingPage.css" />
+    <Content Include="ET.TrngTkr\XSL\LP_OrganizationBDRelatedWP.xsl">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ET.TrngTkr\XSL\LP_TMUpdateEmpHist.xsl">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ET.TrngTkr\XSL\LP_ViewTH_ViewCert.xsl" />
+    <Content Include="Features\ETTngTkerSiteCollection\ETTngTkerSiteCollection.Template.xml">
+      <DependentUpon>ETTngTkerSiteCollection.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\ETTngTkrWeb\ETTngTkrWeb.Template.xml">
+      <DependentUpon>ETTngTkrWeb.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ET.TrngTkr\css\jquery-ui.min.css" />
+    <Content Include="ET.TrngTkr\css\jquery-ui.structure.min.css" />
+    <Content Include="ET.TrngTkr\css\jquery-ui.theme.min.css" />
+    <Content Include="ET.TrngTkr\css\Certificate.css" />
+    <Content Include="ET.TrngTkr\css\Form.css" />
+    <Content Include="ET.TrngTkr\html\NewOrganizationForm.html" />
+    <Content Include="ET.TrngTkr\html\NewTrainingEventForm.html" />
+    <Content Include="ET.TrngTkr\html\EditTrainingHistoryForm.html" />
+    <Content Include="ET.TrngTkr\html\NewTrainingHistoryForm.html" />
+    <Content Include="ET.TrngTkr\images\194993-200.png" />
+    <Content Include="ET.TrngTkr\images\bwcheckmark.png" />
+    <Content Include="ET.TrngTkr\images\Checkmark.png" />
+    <Content Include="ET.TrngTkr\images\gradcomputer.png" />
+    <Content Include="ET.TrngTkr\images\GraduationCap.png" />
+    <Content Include="ET.TrngTkr\images\Lightbulb.png" />
+    <Content Include="ET.TrngTkr\images\org-chart-512.png" />
+    <Content Include="ET.TrngTkr\images\OrgChart.png" />
+    <Content Include="ET.TrngTkr\images\PersonStandingOnGraph.png" />
+    <Content Include="ET.TrngTkr\images\teacher.png" />
+    <Content Include="ET.TrngTkr\images\TeacherChalkBoard.png" />
+    <Content Include="ET.TrngTkr\images\TeacherComputer.png" />
+    <Content Include="ET.TrngTkr\images\training-event.png" />
+    <Content Include="ET.TrngTkr\js\Common.js" />
+    <Content Include="ET.TrngTkr\js\EditOrganization.js" />
+    <Content Include="ET.TrngTkr\js\NewOrganization.js" />
+    <Content Include="ET.TrngTkr\js\NewTrnHistAttendee.js" />
+    <Content Include="ET.TrngTkr\js\jquery-1.11.2.min.js" />
+    <Content Include="ET.TrngTkr\js\jquery-ui.min.js" />
+    <Content Include="ET.TrngTkr\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ReferenceNotes\quicklaunch.txt" />
+    <Content Include="SitePages\WelcomePagetest.aspx" />
+    <Content Include="SitePages\tmevents.aspx" />
+    <Content Include="SitePages\Elements.xml" />
+    <Content Include="WebPartGallery\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
+        <DeploymentConfigurations>
+          <DeploymentConfiguration Name="New Deployment Configuration">
+            <DeploymentSteps>Microsoft.VisualStudio.SharePoint.AddSolution</DeploymentSteps>
+            <RetractionSteps>
+            </RetractionSteps>
+          </DeploymentConfiguration>
+        </DeploymentConfigurations>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

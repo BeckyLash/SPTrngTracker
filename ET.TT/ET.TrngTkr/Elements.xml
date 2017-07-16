@@ -1,0 +1,62 @@
+﻿et.comxml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="ET.TrngTkr" Url="_catalogs/masterpage">
+    <File Path="ET.TrngTkr\css\jquery-ui.min.css" Url="ET.TrngTkr/css/jquery-ui.min.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\css\jquery-ui.structure.min.css" Url="ET.TrngTkr/css/jquery-ui.structure.min.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\css\jquery-ui.theme.min.css" Url="ET.TrngTkr/css/jquery-ui.theme.min.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\css\Certificate.css" Url="ET.TrngTkr/css/Certificate.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\css\Form.css" Url="ET.TrngTkr/css/Form.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\NewOrganizationForm.html" Url="ET.TrngTkr/html/NewOrganizationForm.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\NewTrainingEventForm.html" Url="ET.TrngTkr/html/NewTrainingEventForm.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\EditTrainingHistoryForm.html" Url="ET.TrngTkr/html/EditTrainingHistoryForm.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\NewTrainingHistoryForm.html" Url="ET.TrngTkr/html/NewTrainingHistoryForm.html"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\194993-200.png" Url="ET.TrngTkr/images/194993-200.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\bwcheckmark.png" Url="ET.TrngTkr/images/bwcheckmark.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\Checkmark.png" Url="ET.TrngTkr/images/Checkmark.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\gradcomputer.png" Url="ET.TrngTkr/images/gradcomputer.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\GraduationCap.png" Url="ET.TrngTkr/images/GraduationCap.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\Lightbulb.png" Url="ET.TrngTkr/images/Lightbulb.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\OrgChart.png" Url="ET.TrngTkr/images/OrgChart.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\org-chart-512.png" Url="ET.TrngTkr/images/org-chart-512.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\PersonStandingOnGraph.png" Url="ET.TrngTkr/images/PersonStandingOnGraph.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\teacher.png" Url="ET.TrngTkr/images/teacher.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\TeacherChalkBoard.png" Url="ET.TrngTkr/images/TeacherChalkBoard.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\TeacherComputer.png" Url="ET.TrngTkr/images/TeacherComputer.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\images\training-event.png" Url="ET.TrngTkr/images/training-event.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\js\Common.js" Url="ET.TrngTkr/js/Common.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\js\EditOrganization.js" Url="ET.TrngTkr/js/EditOrganization.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\js\NewOrganization.js" Url="ET.TrngTkr/js/NewOrganization.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\js\NewTrnHistAttendee.js" Url="ET.TrngTkr/js/NewTrnHistAttendee.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\js\jquery-1.11.2.min.js" Url="ET.TrngTkr/js/jquery-1.11.2.min.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\js\jquery-ui.min.js" Url="ET.TrngTkr/js/jquery-ui.min.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\js\CreatedByUser.js" Url="ET.TrngTkr/js/CreatedByUser.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\js\NewTrainingEvent.js" Url="ET.TrngTkr/js/NewTrainingEvent.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\js\EditTrainingEvent.js" Url="ET.TrngTkr/js/EditTrainingEvent.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\html\EditTrainingEventForm.html" Url="ET.TrngTkr/html/EditTrainingEventForm.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\html\TrainingHistoryEditFormManager.html" Url="ET.TrngTkr/html/TrainingHistoryEditFormManager.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"   />
+    <File Path="ET.TrngTkr\html\TrainingHistoryNewFormManager.html" Url="ET.TrngTkr/html/TrainingHistoryNewFormManager.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"   />
+    <File Path="ET.TrngTkr\js\NewTrnHistManager.js" Url="ET.TrngTkr/js/NewTrnHistManager.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\js\EditTrnHistManager.js" Url="ET.TrngTkr/js/EditTrnHistManager.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\js\CopytoClipboard.js" Url="ET.TrngTkr/js/CopytoClipboard.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\html\EditOrganizationForm.html" Url="ET.TrngTkr/html/EditOrganizationForm.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"  />
+  <File Path="ET.TrngTkr\images\army.png" Url="ET.TrngTkr/images/army.png" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\css\Organization.css" Url="ET.TrngTkr/css/Organization.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\js\EditTrnHistAttendee.js" Url="ET.TrngTkr/js/EditTrnHistAttendee.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\html\ViewCertificate.html" Url="ET.TrngTkr/html/ViewCertificate.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\js\ViewCertificate.js" Url="ET.TrngTkr/js/ViewCertificate.js"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\js\LandingPage.js" Url="ET.TrngTkr/js/LandingPage.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\css\LandingPage.css" Url="ET.TrngTkr/css/LandingPage.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\XSL\LP_ViewTH_ViewCert.xsl" Url="ET.TrngTkr/XSL/LP_ViewTH_ViewCert.xsl" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\XSL\LP_TMUpdateEmpHist.xsl" Url="ET.TrngTkr/XSL/LP_TMUpdateEmpHist.xsl" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\XSL\LP_OrganizationBDRelatedWP.xsl" Url="ET.TrngTkr/XSL/LP_OrganizationBDRelatedWP.xsl" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\html\ViewCertificatelinks.html" Url="ET.TrngTkr/html/ViewCertificatelinks.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\NewTrainingEventFormLinks.html" Url="ET.TrngTkr/html/NewTrainingEventFormLinks.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\EditTrainingEventFormLinks.html" Url="ET.TrngTkr/html/EditTrainingEventFormLinks.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\NewOrganizationFormLinks.html" Url="ET.TrngTkr/html/NewOrganizationFormLinks.html"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\EditOrganizationFormLinks.html" Url="ET.TrngTkr/html/EditOrganizationFormLinks.html"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\html\NewTrainingHistoryFormLinks.html" Url="ET.TrngTkr/html/NewTrainingHistoryFormLinks.html"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+    <File Path="ET.TrngTkr\html\EditTrainingHistoryFormLinks.html" Url="ET.TrngTkr/html/EditTrainingHistoryFormLinks.html"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\TrainingHistoryEditFormManagerLinks.html" Url="ET.TrngTkr/html/TrainingHistoryEditFormManagerLinks.html"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="ET.TrngTkr\html\TrainingHistoryNewFormManagerLinks.html" Url="ET.TrngTkr/html/TrainingHistoryNewFormManagerLinks.html"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+  </Module>
+</Elements>

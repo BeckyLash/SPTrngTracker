@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SitePages" Url="SitePages">
+    <File Path="SitePages\tmevents.aspx" Url="tmevents.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE"/>
+    <File Path="SitePages\WelcomePagetest.aspx" Url="WelcomePagetest.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

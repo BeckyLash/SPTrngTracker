@@ -1,0 +1,134 @@
+﻿/*menu button states*/
+#mtt-MenuButtons a#empButton {
+	background:transparent url("../images/Employee.png") no-repeat;
+}
+#mtt-MenuButtons a#tmgButton {
+	background:transparent url("../images/TrainingManager.png") no-repeat;
+}
+#mtt-MenuButtons a#rmgButton {
+	background:transparent url("../images/ReportingManager.png") no-repeat;
+}
+#mtt-MenuButtons a#admButton {
+	background:transparent url("../images/Admin.png") no-repeat;
+}
+#mtt-MenuButtons a#empButton:hover,
+#mtt-MenuButtons a#tmgButton:hover,
+#mtt-MenuButtons a#rmgButton:hover,
+#mtt-MenuButtons a#admButton:hover {
+	background-position:0px -200px !important;	
+}
+#mtt-MenuButtons a {
+	display:inline-block;
+	height:200px;
+	width:225px;
+	margin-right:8px;
+}
+#mtt-MenuButtons a.normal {
+	background-position:0px 0px !important;
+}
+#mtt-MenuButtons a.active {
+	background-position:0px 0px !important;	
+}
+#mtt-MenuButtons a.inactive {
+	background-position:0 -400px !important;
+}
+
+/*content divs*/
+#mtt-Content {
+	padding-top:20px;
+	width:75%;
+	font-size:medium;
+}
+#mtt-Content .title h2 {
+	font-weight:boldest;
+	color:#fff;
+	padding:0;
+	margin:0;
+}
+#mtt-Content table {
+	width:100%;
+}
+#mtt-Content table tr td.webparts {
+	vertical-align:top;
+}
+#mtt-Content table tr td.sub-menu {
+	vertical-align:top;
+	text-align:right;
+	width:180px;
+}
+#mtt-Content .clear {
+	clear:both;
+}
+/*div styling*/
+#mtt-Content #gettingStarted {
+	border:1px #999 solid;
+}
+#mtt-Content #gettingStarted .title {
+	padding:5px 25px;
+	background-color:#999;
+}
+#mtt-Content #gettingStarted .content {
+	padding:10px 25px;
+}
+#mtt-Content #empDiv {
+	border:1px #736357 solid;
+	display:none;
+}
+#mtt-Content #empDiv .title {
+	padding:5px 25px;
+	background-color:#736357;
+}
+#mtt-Content #empDiv .content {
+	padding:10px 25px;
+}
+#mtt-Content #tmgDiv {
+	border:1px #507077 solid;
+	display:none;
+}
+#mtt-Content #tmgDiv .title {
+	padding:5px 25px;
+	background-color:#507077;
+}
+#mtt-Content #tmgDiv .content {
+	padding:10px 25px;
+}
+#mtt-Content #rmgDiv {
+	border:1px #61733b solid;
+	display:none;
+}
+#mtt-Content #rmgDiv .title {
+	padding:5px 25px;
+	background-color:#61733b;
+}
+#mtt-Content #rmgDiv .content {
+	padding:10px 25px;
+}
+#mtt-Content #admDiv {
+	border:1px #56464c solid;
+	display:none;
+}
+#mtt-Content #admDiv .title {
+	padding:5px 25px;
+	background-color:#56464c;
+}
+#mtt-Content #admDiv .content {
+	padding:10px 25px;
+}
+
+/*remove active link styling on QL for this page only*/
+.ms-core-listMenu-verticalBox > ul.root > li.selected > a {
+	background:transparent;
+	color:#666 !important;
+	font-weight:normal !important;
+}
+.ms-core-listMenu-verticalBox a.selected {
+	border:0 !important;
+	border-bottom:1px #ddd solid !important;
+}
+.ms-core-listMenu-verticalBox > ul.root > li > a:hover {
+	background:rgba(178,204,135,1) !important;
+}
+.ms-core-menu-button {
+    /*hide Actions button on web parts*/
+        display: none;
+}

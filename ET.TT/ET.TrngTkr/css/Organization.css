@@ -1,0 +1,10 @@
+﻿
+input[title=Name], input[title=ParentOrganizationId]   {
+     display: none;
+ }
+.ms-formbody {
+    /*both settings required to completely collapse default form*/
+                          visibility: collapse;
+                         display: none;
+    
+                      }

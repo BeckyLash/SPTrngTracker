@@ -1,0 +1,37 @@
+h1, h2, p { text-align: center;} 
+.divCertificate {margin: 10px; 
+                 border: thick solid black; 
+                 padding: 10px 10px;
+                 min-height: 800px;
+                 align-self: center;
+                  
+}
+img { margin-top: 200px;}
+.event {text-align: left;}
+
+
+.CertificateInner {margin: 1px; 
+                   border: thin solid black; 
+                   height: 80%; 
+                   padding: 5%; 
+                   min-height: 800px;}
+/*for certificate opening in view form.aspx page*/
+.ms-toolbar {
+    display: none;
+}
+div[allowdelete="False"] {
+    display: none;
+}
+
+
+@media print {
+ 
+    .noPrint {display:none;}
+    .s4-title {display:none;}
+    .NoticeAndConsentBanner {display:none;}
+    .divCertificate { min-height: 800px;
+        align-self: center;
+    }
+    .CertificateInner { min-height: 700px;}
+   img { margin-top: 200px;}
+}

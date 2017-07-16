@@ -1,0 +1,20 @@
+QuickLaunch for MTT
+
+/sites/et/Dev/SitePages/Welcome.aspx?role=adm&area=events
+
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=emp
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=emp&area=userguide
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=emp&area=printcert
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=emp&area=trainhist
+
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=tmg
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=tmg&area=events
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=tmg&area=enteratt
+
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=rmg
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=rmg&area=reports
+
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=adm
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=adm&area=org
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=adm&area=reports
+https://et.com/apps/et/tt/SitePages/Welcome.aspx?role=adm&area=events

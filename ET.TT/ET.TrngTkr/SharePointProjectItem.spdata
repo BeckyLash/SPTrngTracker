@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="ET.TrngTkr\" Type="ElementManifest" />
+    <ProjectItemFile Source="css\jquery-ui.min.css" Target="ET.TrngTkr\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\jquery-ui.structure.min.css" Target="ET.TrngTkr\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\jquery-ui.theme.min.css" Target="ET.TrngTkr\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\Certificate.css" Target="ET.TrngTkr\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\Form.css" Target="ET.TrngTkr\css\" Type="ElementFile" />
+    <ProjectItemFile Source="html\EditOrganizationForm.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\NewOrganizationForm.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\NewTrainingEventForm.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\EditTrainingHistoryForm.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\NewTrainingHistoryForm.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="images\194993-200.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\bwcheckmark.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\Checkmark.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\gradcomputer.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\GraduationCap.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\Lightbulb.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\OrgChart.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\org-chart-512.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\PersonStandingOnGraph.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\teacher.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\TeacherChalkBoard.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\TeacherComputer.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\training-event.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="js\Common.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\EditOrganization.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\NewOrganization.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\NewTrnHistAttendee.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\jquery-1.11.2.min.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\jquery-ui.min.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\CreatedByUser.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\NewTrainingEvent.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\EditTrainingEvent.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="html\EditTrainingEventForm.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\TrainingHistoryEditFormManager.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\TrainingHistoryNewFormManager.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="js\NewTrnHistManager.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\EditTrnHistManager.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\CopytoClipboard.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="images\army.png" Target="ET.TrngTkr\images\" Type="ElementFile" />
+    <ProjectItemFile Source="css\Organization.css" Target="ET.TrngTkr\css\" Type="ElementFile" />
+    <ProjectItemFile Source="js\EditTrnHistAttendee.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="html\ViewCertificate.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="js\ViewCertificate.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\LandingPage.js" Target="ET.TrngTkr\js\" Type="ElementFile" />
+    <ProjectItemFile Source="css\LandingPage.css" Target="ET.TrngTkr\css\" Type="ElementFile" />
+    <ProjectItemFile Source="XSL\LP_ViewTH_ViewCert.xsl" Target="ET.TrngTkr\XSL\" Type="ElementFile" />
+    <ProjectItemFile Source="XSL\LP_TMUpdateEmpHist.xsl" Target="ET.TrngTkr\XSL\" Type="ElementFile" />
+    <ProjectItemFile Source="XSL\LP_OrganizationBDRelatedWP.xsl" Target="ET.TrngTkr\XSL\" Type="ElementFile" />
+    <ProjectItemFile Source="html\ViewCertificatelinks.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\NewTrainingEventFormLinks.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\EditTrainingEventFormLinks.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\NewOrganizationFormLinks.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\EditOrganizationFormLinks.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\NewTrainingHistoryFormLinks.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\EditTrainingHistoryFormLinks.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\TrainingHistoryEditFormManagerLinks.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+    <ProjectItemFile Source="html\TrainingHistoryNewFormManagerLinks.html" Target="ET.TrngTkr\html\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

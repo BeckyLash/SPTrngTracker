@@ -1,0 +1,59 @@
+﻿/*//hide all labels and input fields*/
+.ms-standardheader, .msform-label, .ms-descriptiontext {
+        display: none;
+        visibility: collapse;
+    }
+/*set width of all text input*/
+input[type="text"] {
+    width: 400px;
+}
+
+/*date time pickers*/
+/*.ms-dtinput').hide();//do not use hides everything and prevents writing date*/
+.ms-dttimeinput, .ms-dtinput img {
+        display: none;
+    }
+/*hide all fields - */
+/*Training HIstory list: New Item attendee*/
+input[title=IsActive], input[title=UserTopOrganization], input[title=UserSecondOrganization], input[title=UserThirdOrganization], input[title=UserFourthOrganization], input[title=CreatedByName],  input[title=CreatedDate], input[title=ModifiedDate], input[title=ModifiedByName],    input[title=UserName],    input[title=UserEDIPI],    input[title=DateCompleted],    input[title=TitleOfEvent],    input[title=ModifiedByEDIPI],    input[title=CreatedByEDIPI],    input[title=TrainingEventId], input[title=DateCompleted]  {
+     display: none;
+ }
+ /*Training history list: Edit form attendee*/
+
+ input[title=UserEmail]  {
+     display: inline-block;
+ }
+
+/*Organization list: New item
+*/
+
+#error, #ErrorOrg, .error {
+	 font-size:large;
+	color: red;
+}
+#success, .success {
+	 font-size:large;
+	color: green;
+}
+/*Training Event list: New Item*/
+input[title=Title], input[title=OperationOrder], input[title=Repeatable], input[title=Mandatory], input[title=CompletionTimeSpan], input[title=TrainingManagerName], input[title=LinkToCourseware], input[title=TrainingManagerEDIPI], input[title=TrainingManagerEmail], input[title=CreatedByName],  input[title=CreatedDate], input[title=ModifiedByName]    {
+     display: none;
+ }
+
+select {width:300px;
+        
+        margin:5px;
+
+}
+.required:after { content:" *"; color: #e32;}
+
+#ButtonToolbar {
+    margin-top: 20px;
+}
+
+.errorInputActive {
+    background-color: red;
+}
+.errorInputClear {
+    background-color: white;
+}
