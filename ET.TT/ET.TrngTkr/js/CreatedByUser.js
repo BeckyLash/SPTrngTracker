@@ -48,30 +48,30 @@ function onSuccessMethod(sender, args) {
     div.innerHTML = "<h2>Welcome,  " + divText + "</h2>";
     //populate user fields on new form
 
-    TT.$("input[title='UserName']").val(userNameTitle);
-    TT.$("input[title='UserEDIPI']").val(userName);
+    ET.$("input[title='UserName']").val(userNameTitle);
+    ET.$("input[title='UserEDIPI']").val(userName);
     //populate if blank
-    if (TT.$("input[title='UserEmail']").val() === "") {
-        TT.$("input[title='UserEmail']").val(userEmail);
+    if (ET.$("input[title='UserEmail']").val() === "") {
+        ET.$("input[title='UserEmail']").val(userEmail);
     }
   
-    if (TT.$("input[title='CreatedByName']").val() === "") {
-        TT.$("input[title='CreatedByName']").val(userNameTitle);
-        TT.$("input[title='CreatedByEDIPI']").val(userName);
+    if (ET.$("input[title='CreatedByName']").val() === "") {
+        ET.$("input[title='CreatedByName']").val(userNameTitle);
+        ET.$("input[title='CreatedByEDIPI']").val(userName);
     } else {
 
-        TT.$("input[title='CreatedByName']", "input[title='CreatedByEDIPI']").attr("readonly", "true").css("border", "None");
+        ET.$("input[title='CreatedByName']", "input[title='CreatedByEDIPI']").attr("readonly", "true").css("border", "None");
 
     }
-    TT.$("input[title='ModifiedByName']").val(divText);
-    TT.$("input[title='ModifiedByEDIPI']").val(userName);
+    ET.$("input[title='ModifiedByName']").val(divText);
+    ET.$("input[title='ModifiedByEDIPI']").val(userName);
     //new training event form
     
-    if (TT.$("input[title='TrainingManagerName']").val() === "")
-    {
-        TT.$("#ETPeoplePicker").val(userNameTitle);
-        TT.$("input[title='TrainingManagerName']").val(userName);
-       TT.$("input[title='TrainingManagerEmail']").val(userEmail);
+    if (ET.$("input[title='TrainingManagerName']").val() === "")
+   {
+        ET.$("#ETPeoplePicker").val(userNameTitle);
+        ET.$("input[title='TrainingManagerName']").val(userName);
+    ET.$("input[title='TrainingManagerEmail']").val(userEmail);
     }
    
 }
@@ -103,64 +103,20 @@ function initializePeoplePicker(peoplePickerElementId) {
 
 //Query the picker for user information.
 function getUserInfo() {
-
-    var peoplePicker = this.SPClientPeoplePicker.SPClientPeoplePickerDict.ETPeoplePicker_TopSpan;
-
+    var peoplePicker = this.SPClientPeoplePicker.SPClientPeoplePickerDict.ETpPeoplePicker_TopSpan;
     // Get information about all users.
     var users = peoplePicker.GetAllUserInfo();
-    var userInfo = "";
-    var keys = peoplePicker.GetAllUserKeys();
-
-    for (var i = 0; i < users.length; i++) {
-        var user = users[i];
-
+    for (var i = 0; i < users.length; i++) {      
         var key = users[i].Key;
         var userName = users[i].DisplayText;
         //training history form
-        TT.$("input[title='UserEDIPI']").val(key);
-        TT.$("input[title='UserName']").val(userName);
-
+        ET.$("input[title='UserEDIPI']").val(key);
+        ET.$("input[title='UserName']").val(userName);
         //Trainingeventform
-        TT.$("input[title='TrainingManagerEDIPI']").val(key);
-        TT.$("input[title='TrainingManagerName']").val(userName);
-        ET.TT.GetUserEmail.load(key);
+        ET.$("input[title='TrainingManagerEDIPI']").val(key);
+        ET.$("input[title='TrainingManagerName']").val(userName);       
+        ET.$("input[title='TrainingManagerEmail']").val(users[i].EntityData.Email); 
 
     }
-
-
 }
-
-ET.TT.GetUserEmail = function () {
-    var _webUrl = _spPageContextInfo.webServerRelativeUrl;
-    var load = function (selectedValue) {
-        //trim first seven characters from key
-        var accountName = selectedValue.substring(7);
-
-        TT.$.ajax({
-            cache: false,
-            url: _webUrl + "/_api/SP.UserProfiles.PeopleManager/GetPropertiesFor(accountName=@v)?@v='" + encodeURIComponent(accountName) + "'&$select=Email",
-
-            type: 'GET',
-            headers: {
-                "Accept": "application/json;odata=verbose"
-            },
-            success: function (data) {
-                console.log(JSON.stringify(data));
-                var userEmail = data.d.Email;
-                //training history form
-                TT.$("input[title='UserEmail']").val(userEmail);
-                //training event form
-                TT.$("input[title='TrainingManagerEmail']").val(userEmail);
-            }, //end of success
-            error: function ajaxError(response) {
-                console.log(response.status + "  " + response.statusText);
-            }
-
-        });
-
-    };
-    return {
-        load: load
-    };
-}();
 
